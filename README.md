@@ -4,6 +4,22 @@
 
 A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
 
+## Prereqs
+
+* a nerd font for your terminal
+* lua, luarocks
+* lazygit
+  * `LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | \grep -Po '"tag_name": *"v\K[^"]*')`
+  * `curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/v${LAZYGIT_VERSION}/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"`
+  * `tar xf lazygit.tar.gz lazygit`
+  * `sudo install lazygit -D -t /usr/local/bin/`
+  * `rm lazygit*`
+* ripgrep
+* rust
+  * `snap install rustup --classic`
+  * `rustup default stable`
+  * `cargo install --locked tree-sitter-cli`
+
 ## 🛠️ Installation
 
 #### Make a backup of your current nvim and shared folder
