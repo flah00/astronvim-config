@@ -1,6 +1,6 @@
 ---@type LazySpec
 return {
-  "neo-tree/neo-tree.nvim",
+  "nvim-neo-tree/neo-tree.nvim",
   commands = {
     copy_selector = function(state)
       local node = state.tree:get_node()
