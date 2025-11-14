@@ -11,6 +11,10 @@ return {
           ["<Leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
           ["<Leader>gh"] = { ":!git log --format=\\%H -1 | xsel -bi<cr>", desc = "Copy commit hash" },
           ["<Leader>bX"] = { ":!xsel -bi <%<cr>", desc = "Copy buffer" },
+          ["<Leader>lZ"] = {
+            ":!pandoc -f markdown % >/tmp/index.html; open /tmp/index.html<cr>",
+            desc = "Render markdown",
+          },
         },
       },
     },
