@@ -19,6 +19,7 @@ A template for getting started with [AstroNvim](https://github.com/AstroNvim/Ast
   * `snap install rustup --classic`
   * `rustup default stable`
   * `cargo install --locked tree-sitter-cli`
+  * `cargo install deadnix rnix-lsp statix`
 
 ## 🛠️ Installation
 
