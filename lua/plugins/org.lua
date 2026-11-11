@@ -5,10 +5,8 @@ return {
     main = "org",
     lazy = false,
     opts = {
-      keys = {
-        {
-          "<leader>O",
-        },
+      mappings = {
+        prefix = "<leader>O",
       },
       org_directory = "~/.config/org",
       agenda_files = { "~/.config/org/**/*.org" },
